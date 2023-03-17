@@ -1,0 +1,242 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* enlaces*/
+
+.enlaces  li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+ul{
+    text-align: end;
+    padding: 30px 30px 0px 0px;
+}
+
+nav.enlaces ul li a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(../multi/obelisco.jpg);
+    width:100%;
+    height: 65vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: #c2b939;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    padding: 1rem;
+}
+.plaza{
+    display: flex;
+    justify-content: center;
+}
+.plaza img{
+    width: 100%;
+}
+    /*parrafos iniciales*/
+p.descripcion{
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+}
+    /*estilo barrios*/
+.puertomadero{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+.maderop{
+    text-align: center;
+    align-self: center;
+    padding: 1rem;
+}
+.fotomadero{
+    height: 90%;
+    width: 50%;
+}
+.palermo{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+    grid-template-areas: 
+        "none h3"
+        "palermop img"
+}
+.palermo h3{
+    grid-area: h3;
+    text-align: end;
+    padding-right: 4rem;
+}
+.palermop{
+    grid-area: palermop;
+    text-align: center;
+    align-self: center;
+    padding: 1rem;
+}   
+.fotopalermo{
+    width: 90%;
+    grid-area: img;
+}
+
+.recoleta{
+    display: flex;
+    padding: 1rem;   
+}
+.fotorecoleta{
+    width: 55%;
+}
+.recoletap{
+    text-align: center;
+    align-self: center;
+    padding: 1rem;
+}
+    /*actividades*/
+
+main.actividades{
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "teatro cementerio jardin"
+        "centrocultural none caminito";
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.teatro{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    gap: 1rem;
+    grid-area: teatro;
+    border: solid 1px;
+    border-radius: 1rem;
+}
+.cementerio{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    grid-area: cementerio;
+    border: solid 1px;
+    border-radius: 1rem;
+
+}
+.jardin{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    grid-area: jardin;
+    border: solid 1px;
+    border-radius: 1rem;
+
+}
+.centrocultural{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    grid-area: centrocultural;
+    border: solid 1px;
+    border-radius: 1rem;
+
+}
+.caminito{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    grid-area: caminito;
+    border: solid 1px;
+    border-radius: 1rem;
+}
+@media (max-width:576px){
+    header{
+        height: 50vh;
+        width: 100%;
+    }
+    /*enlaces*/
+    ul{
+        text-align: center;
+    }
+    /*estilo barrios*/
+    .barrios{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "puertomadero"
+        "palermo"
+        "recoleta";
+    }
+    .puertomadero{
+        grid-area: puertomadero;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .fotomadero{
+        height: 300px;
+        width: 90%;
+    }
+    .maderop{
+        text-align: center;
+        align-self: center;
+        padding: 0;
+    }
+    
+    .palermo{
+        grid-area: palermo;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .fotopalermo{
+        width: 90%;
+        height: 300px;
+    }
+    
+    .recoleta{
+        grid-area: recoleta;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .fotorecoleta{
+        height: 300px;
+        width: 85%;
+    }
+}
