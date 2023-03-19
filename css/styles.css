@@ -120,6 +120,7 @@ main.actividades{
         "centrocultural none caminito";
     gap: 0.5rem;
     margin: 1rem;
+    justify-items: center;
 }
 .teatro{
     display: flex;
@@ -187,6 +188,7 @@ main.actividades{
     /*enlaces*/
     ul{
         text-align: center;
+        padding: 1rem 0;
     }
     /*estilo barrios*/
     .barrios{
@@ -226,6 +228,9 @@ main.actividades{
     .fotopalermo{
         width: 90%;
         height: 300px;
+    }
+    .palermo h3{
+        padding: 0;
     }
     
     .recoleta{
