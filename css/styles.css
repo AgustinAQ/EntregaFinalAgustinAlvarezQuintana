@@ -123,12 +123,11 @@ p.descripcion{
     padding: 1rem;
 }
     /*actividades*/
-    .carousel-inner{
-        height: 400px;
+.carousel-inner{
+     height: 400px;
     }
-    .carousel-inner img{
+.carousel-inner img{
         height: 400px;
-        
     }
 div.actividades{
     display: grid; 
@@ -136,7 +135,7 @@ div.actividades{
     grid-template-rows: auto auto;
     grid-template-areas: 
         "teatro cementerio jardin"
-        "centrocultural none caminito";
+        "centrocultural esma caminito";
     gap: 0.5rem;
     margin: 1rem;
     justify-items: center;
@@ -197,6 +196,17 @@ div.actividades{
     text-align: center;
     gap: 1rem;
     grid-area: caminito;
+    border: solid 1px;
+    border-radius: 1rem;
+}
+.esma{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    grid-area: esma;
     border: solid 1px;
     border-radius: 1rem;
 }
