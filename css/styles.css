@@ -271,4 +271,19 @@ main.actividades{
             "centrocultural"
             "caminito";
     }
+    .teatro{
+        grid-area: teatro;
+    }
+    .cementerio{
+        grid-area: cementerio;
+    }
+    .jardin{
+        grid-area: jardin;
+    }
+    .centrocultural{
+        grid-area: centrocultural;
+    }
+    .caminito{
+        grid-area: caminito;
+    }
 }
