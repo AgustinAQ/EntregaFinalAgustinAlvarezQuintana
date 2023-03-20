@@ -59,18 +59,24 @@ p.descripcion{
 }
     /*estilo barrios*/
 .puertomadero{
-    display: flex;
-    padding: 1rem;
-    width: 100%;
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto ;
+        grid-template-areas: 
+            "h3 none"
+            "imgpm maderop"
 }
 .maderop{
+    grid-area: maderop;
     text-align: center;
     align-self: center;
     padding: 1rem;
 }
 .fotomadero{
+    grid-area: imgpm;
     height: 90%;
-    width: 50%;
+    padding-left: 2rem;
 }
 .palermo{
     display: grid;
@@ -98,13 +104,20 @@ p.descripcion{
 }
 
 .recoleta{
-    display: flex;
-    padding: 1rem;   
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto ;
+        grid-template-areas:
+            "h3 none"
+            "fotorecoleta recoletap"
 }
 .fotorecoleta{
-    width: 55%;
+    grid-area: fotorecoleta;
+    padding-left: 2rem;
 }
 .recoletap{
+    grid-area: recoletap;
     text-align: center;
     align-self: center;
     padding: 1rem;
@@ -211,6 +224,7 @@ main.actividades{
     .fotomadero{
         height: 300px;
         width: 90%;
+        padding: 0;
     }
     .maderop{
         text-align: center;
@@ -243,5 +257,6 @@ main.actividades{
     .fotorecoleta{
         height: 300px;
         width: 85%;
+        padding: 0;
     }
 }
