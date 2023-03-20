@@ -123,7 +123,13 @@ p.descripcion{
     padding: 1rem;
 }
     /*actividades*/
-
+    .carousel-inner{
+        height: 400px;
+    }
+    .carousel-inner img{
+        height: 400px;
+        
+    }
 div.actividades{
     display: grid; 
     grid-template-columns: auto auto auto;
@@ -134,6 +140,7 @@ div.actividades{
     gap: 0.5rem;
     margin: 1rem;
     justify-items: center;
+    padding-top: 1rem
 }
 .teatro{
     display: flex;
