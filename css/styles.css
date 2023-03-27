@@ -286,7 +286,8 @@ div.actividades{
             "cementerio"
             "jardin"
             "centrocultural"
-            "caminito";
+            "caminito"
+            "esma";
     }
     .teatro{
         grid-area: teatro;
@@ -302,5 +303,8 @@ div.actividades{
     }
     .caminito{
         grid-area: caminito;
+    }
+    .esma{
+        grid-area: esma;
     }
 }
