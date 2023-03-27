@@ -277,6 +277,9 @@ div.actividades{
         padding: 0;
     }
     /*estilo actividades*/
+    .carousel-inner{
+        height: auto;
+    }
     .carousel-inner img{
         height: auto;
     }
