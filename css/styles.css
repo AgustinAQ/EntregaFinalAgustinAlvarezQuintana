@@ -282,4 +282,30 @@ ul {
   padding: 0;
 }
 
+/*estilo actividades*/
+.actividades {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "teatro" "cementerio" "jardin" "centrocultural" "caminito" "esma";
+}
+.actividades .teatro {
+  grid-area: teatro;
+}
+.actividades .cementerio {
+  grid-area: cementerio;
+}
+.actividades .jardin {
+  grid-area: jardin;
+}
+.actividades .centrocultural {
+  grid-area: centrocultural;
+}
+.actividades .caminito {
+  grid-area: caminito;
+}
+.actividades .esma {
+  grid-area: esma;
+}
+
 /*# sourceMappingURL=styles.css.map */
