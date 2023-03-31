@@ -232,6 +232,7 @@ footer{
     }
 }
 /*media queries 576px*/
+@media (max-width:576px){
 header{
     height: 50vh;
     width: 100%;
@@ -325,4 +326,5 @@ ul{
     .esma{
     grid-area: esma;
     }
+}
 }

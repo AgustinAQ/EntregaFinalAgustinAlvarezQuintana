@@ -219,93 +219,92 @@ footer a {
 }
 
 /*media queries 576px*/
-header {
-  height: 50vh;
-  width: 100%;
-}
-
-/*enlaces*/
-ul {
-  text-align: center;
-  padding: 1rem;
-}
-
-/*estilo barrios*/
-.barrios {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-template-areas: "puertomadero" "palermo" "recoleta";
-}
-.barrios .puertomadero {
-  grid-area: puertomadero;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-.barrios .fotomadero {
-  height: 300px;
-  width: 90%;
-  padding: 0;
-}
-.barrios .maderop {
-  text-align: center;
-  align-self: center;
-  padding: 0;
-}
-.barrios .palermo {
-  grid-area: palermo;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-}
-.barrios .fotopalermo {
-  width: 90%;
-  height: 300px;
-}
-.barrios .palermo h3 {
-  padding: 0;
-}
-.barrios .recoleta {
-  grid-area: recoleta;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-}
-.barrios .fotorecoleta {
-  height: 300px;
-  width: 85%;
-  padding: 0;
-}
-
-/*estilo actividades*/
-.actividades {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-template-areas: "teatro" "cementerio" "jardin" "centrocultural" "caminito" "esma";
-}
-.actividades .teatro {
-  grid-area: teatro;
-}
-.actividades .cementerio {
-  grid-area: cementerio;
-}
-.actividades .jardin {
-  grid-area: jardin;
-}
-.actividades .centrocultural {
-  grid-area: centrocultural;
-}
-.actividades .caminito {
-  grid-area: caminito;
-}
-.actividades .esma {
-  grid-area: esma;
+@media (max-width: 576px) {
+  header {
+    height: 50vh;
+    width: 100%;
+  }
+  /*enlaces*/
+  ul {
+    text-align: center;
+    padding: 1rem;
+  }
+  /*estilo barrios*/
+  .barrios {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "puertomadero" "palermo" "recoleta";
+  }
+  .barrios .puertomadero {
+    grid-area: puertomadero;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .barrios .fotomadero {
+    height: 300px;
+    width: 90%;
+    padding: 0;
+  }
+  .barrios .maderop {
+    text-align: center;
+    align-self: center;
+    padding: 0;
+  }
+  .barrios .palermo {
+    grid-area: palermo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .barrios .fotopalermo {
+    width: 90%;
+    height: 300px;
+  }
+  .barrios .palermo h3 {
+    padding: 0;
+  }
+  .barrios .recoleta {
+    grid-area: recoleta;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .barrios .fotorecoleta {
+    height: 300px;
+    width: 85%;
+    padding: 0;
+  }
+  /*estilo actividades*/
+  .actividades {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "teatro" "cementerio" "jardin" "centrocultural" "caminito" "esma";
+  }
+  .actividades .teatro {
+    grid-area: teatro;
+  }
+  .actividades .cementerio {
+    grid-area: cementerio;
+  }
+  .actividades .jardin {
+    grid-area: jardin;
+  }
+  .actividades .centrocultural {
+    grid-area: centrocultural;
+  }
+  .actividades .caminito {
+    grid-area: caminito;
+  }
+  .actividades .esma {
+    grid-area: esma;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
