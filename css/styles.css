@@ -29,6 +29,11 @@ header li {
 }
 header a {
   text-decoration: none;
+  color: black;
+}
+header a:hover {
+  box-shadow: 2px 2px 5px rgb(62, 62, 240);
+  color: rgb(19, 19, 99);
 }
 header h1 {
   text-align: center;
@@ -68,6 +73,11 @@ footer li {
 }
 footer a {
   text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  box-shadow: 2px 2px 5px green;
+  color: rgb(11, 66, 11);
 }
 
 /*Estilo barrios*/
@@ -162,6 +172,9 @@ footer a {
   border: solid 1px;
   border-radius: 1rem;
 }
+.actividades .teatro:hover {
+  box-shadow: 1px 1px 3px black;
+}
 .actividades .cementerio {
   display: flex;
   width: 330px;
@@ -172,6 +185,9 @@ footer a {
   grid-area: cementerio;
   border: solid 1px;
   border-radius: 1rem;
+}
+.actividades .cementerio:hover {
+  box-shadow: 1px 1px 3px black;
 }
 .actividades .jardin {
   display: flex;
@@ -184,6 +200,9 @@ footer a {
   border: solid 1px;
   border-radius: 1rem;
 }
+.actividades .jardin:hover {
+  box-shadow: 1px 1px 3px black;
+}
 .actividades .centrocultural {
   display: flex;
   width: 330px;
@@ -194,6 +213,9 @@ footer a {
   grid-area: centrocultural;
   border: solid 1px;
   border-radius: 1rem;
+}
+.actividades .centrocultural:hover {
+  box-shadow: 1px 1px 3px black;
 }
 .actividades .caminito {
   display: flex;
@@ -206,6 +228,9 @@ footer a {
   border: solid 1px;
   border-radius: 1rem;
 }
+.actividades .caminito:hover {
+  box-shadow: 1px 1px 3px black;
+}
 .actividades .esma {
   display: flex;
   width: 330px;
@@ -216,6 +241,9 @@ footer a {
   grid-area: esma;
   border: solid 1px;
   border-radius: 1rem;
+}
+.actividades .esma:hover {
+  box-shadow: 1px 1px 3px black;
 }
 
 /*media queries 576px*/
