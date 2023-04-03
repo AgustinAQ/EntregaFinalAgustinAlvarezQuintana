@@ -310,10 +310,10 @@ footer a:hover {
   }
   /*estilo actividades*/
   .carouselBs .carousel-inner {
-    height: 300px;
+    height: 250px;
   }
   .carouselBs .carousel-inner img {
-    height: 300px;
+    height: 250px;
   }
   .actividades {
     display: grid;
