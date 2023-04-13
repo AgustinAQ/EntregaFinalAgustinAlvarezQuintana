@@ -38,10 +38,10 @@ header a:hover {
 header h1 {
   text-align: center;
   animation-duration: 3s;
-  animation-name: aparicion;
+  animation-name: efecto;
   animation-iteration-count: initial;
 }
-@keyframes aparicion {
+@keyframes efecto {
   0% {
     opacity: 0;
   }
@@ -172,7 +172,7 @@ footer a:hover {
   justify-items: center;
   padding-top: 1rem;
 }
-.actividades .teatro {
+.actividades .teatro, .actividades .cards, .actividades .esma, .actividades .caminito, .actividades .centrocultural, .actividades .jardin, .actividades .cementerio {
   display: flex;
   width: 330px;
   flex-direction: column;
@@ -187,71 +187,31 @@ footer a:hover {
   box-shadow: 1px 1px 3px black;
 }
 .actividades .cementerio {
-  display: flex;
-  width: 330px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
   grid-area: cementerio;
-  border: solid 1px;
-  border-radius: 1rem;
 }
 .actividades .cementerio:hover {
   box-shadow: 1px 1px 3px black;
 }
 .actividades .jardin {
-  display: flex;
-  width: 330px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
   grid-area: jardin;
-  border: solid 1px;
-  border-radius: 1rem;
 }
 .actividades .jardin:hover {
   box-shadow: 1px 1px 3px black;
 }
 .actividades .centrocultural {
-  display: flex;
-  width: 330px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
   grid-area: centrocultural;
-  border: solid 1px;
-  border-radius: 1rem;
 }
 .actividades .centrocultural:hover {
   box-shadow: 1px 1px 3px black;
 }
 .actividades .caminito {
-  display: flex;
-  width: 330px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
   grid-area: caminito;
-  border: solid 1px;
-  border-radius: 1rem;
 }
 .actividades .caminito:hover {
   box-shadow: 1px 1px 3px black;
 }
 .actividades .esma {
-  display: flex;
-  width: 330px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
   grid-area: esma;
-  border: solid 1px;
-  border-radius: 1rem;
 }
 .actividades .esma:hover {
   box-shadow: 1px 1px 3px black;

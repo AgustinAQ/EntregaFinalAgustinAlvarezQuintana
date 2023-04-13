@@ -36,9 +36,9 @@ header{
     h1{
         text-align: center;
         animation-duration: 3s;
-        animation-name: aparicion;
+        animation-name: efecto;
         animation-iteration-count: initial;
-        @keyframes aparicion {
+        @keyframes efecto {
             0%{
                 opacity: 0;
             }
@@ -183,7 +183,7 @@ footer{
     justify-items: center;
     padding-top: 1rem;
 
-    .teatro{
+    .teatro, .cards{
     display: flex;
     width: 330px;
     flex-direction: column;
@@ -198,71 +198,36 @@ footer{
     box-shadow: 1px 1px 3px black;
     }
     .cementerio{
-    display: flex;
-    width: 330px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
     grid-area: cementerio;
-    border: solid 1px;
-    border-radius: 1rem;
+    @extend .cards
     }
     .cementerio:hover{
     box-shadow: 1px 1px 3px black;
     }
     .jardin{
-    display: flex;
-    width: 330px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
     grid-area: jardin;
-    border: solid 1px;
-    border-radius: 1rem;
+    @extend .cards;
     }
     .jardin:hover{
     box-shadow: 1px 1px 3px black;
     }
     .centrocultural{
-    display: flex;
-    width: 330px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
     grid-area: centrocultural;
-    border: solid 1px;
-    border-radius: 1rem;
+    @extend .cards;
     }
     .centrocultural:hover{
     box-shadow: 1px 1px 3px black;
     }
     .caminito{
-    display: flex;
-    width: 330px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
     grid-area: caminito;
-    border: solid 1px;
-    border-radius: 1rem;
+    @extend .cards;
     }
     .caminito:hover{
     box-shadow: 1px 1px 3px black;
     }
     .esma{
-    display: flex;
-    width: 330px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
     grid-area: esma;
-    border: solid 1px;
-    border-radius: 1rem;
+    @extend .cards;
     }
     .esma:hover{
     box-shadow: 1px 1px 3px black;
