@@ -31,7 +31,7 @@ header a:hover {
 }
 header h1 {
   text-align: center;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: efecto;
   animation-iteration-count: initial;
 }
