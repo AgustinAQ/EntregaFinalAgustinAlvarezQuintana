@@ -177,38 +177,23 @@ footer a:hover {
   border: solid 1px;
   border-radius: 1rem;
 }
-.actividades .teatro:hover {
+.actividades .teatro.cards:hover, .actividades .cards.cards:hover, .actividades .esma:hover, .actividades .caminito:hover, .actividades .centrocultural:hover, .actividades .jardin:hover, .actividades .cementerio:hover {
   box-shadow: 1px 1px 3px black;
 }
 .actividades .cementerio {
   grid-area: cementerio;
 }
-.actividades .cementerio:hover {
-  box-shadow: 1px 1px 3px black;
-}
 .actividades .jardin {
   grid-area: jardin;
-}
-.actividades .jardin:hover {
-  box-shadow: 1px 1px 3px black;
 }
 .actividades .centrocultural {
   grid-area: centrocultural;
 }
-.actividades .centrocultural:hover {
-  box-shadow: 1px 1px 3px black;
-}
 .actividades .caminito {
   grid-area: caminito;
 }
-.actividades .caminito:hover {
-  box-shadow: 1px 1px 3px black;
-}
 .actividades .esma {
   grid-area: esma;
-}
-.actividades .esma:hover {
-  box-shadow: 1px 1px 3px black;
 }
 
 /*media queries 576px*/

@@ -188,44 +188,30 @@ footer{
     grid-area: teatro;
     border: solid 1px;
     border-radius: 1rem;
-    }
-    .teatro:hover{
-    box-shadow: 1px 1px 3px black;
+    
+        &.cards:hover{
+        box-shadow: 1px 1px 3px black;
+        }
     }
     .cementerio{
     grid-area: cementerio;
     @extend .cards
     }
-    .cementerio:hover{
-    box-shadow: 1px 1px 3px black;
-    }
     .jardin{
     grid-area: jardin;
     @extend .cards;
-    }
-    .jardin:hover{
-    box-shadow: 1px 1px 3px black;
     }
     .centrocultural{
     grid-area: centrocultural;
     @extend .cards;
     }
-    .centrocultural:hover{
-    box-shadow: 1px 1px 3px black;
-    }
     .caminito{
     grid-area: caminito;
     @extend .cards;
     }
-    .caminito:hover{
-    box-shadow: 1px 1px 3px black;
-    }
     .esma{
     grid-area: esma;
     @extend .cards;
-    }
-    .esma:hover{
-    box-shadow: 1px 1px 3px black;
     }
 }
 /*media queries 576px*/
