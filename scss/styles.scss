@@ -1,6 +1,8 @@
-@import "partials/_reset.css";
+@import "partials/reset";
+@import "partials/mixin";
+@import "partials/variable";
 body{
-    background-image: linear-gradient(to bottom, #8adf76, #68bf57);
+    background-image: $color-body
 }
 header{
     background-image: url(../multi/obelisco.jpg);
@@ -15,9 +17,7 @@ header{
         padding: 30px 30px 0px 0px
     }
     li{
-        display: inline;
-        padding: 5px;
-        margin: 5px;
+        @include popli;
     }
     a{
         text-decoration: none;
@@ -73,9 +73,7 @@ footer{
         padding: 30px 30px 0px 0px
     }
     li{
-        display: inline;
-        padding: 5px;
-        margin: 5px;
+        @include propli;
     }
     a{
         text-decoration: none;
